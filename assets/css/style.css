@@ -502,7 +502,6 @@ button:hover {
 /* My Work */
 
 section.my-work .section-heading {
-    text-align: left;
     padding: 80px 45px 50px 45px;
 }
 
@@ -538,7 +537,7 @@ section.my-work .section-heading {
     font-size: 12px;
     display: inline-block;
     padding: 8px 16px;
-    background-color: #8c363e;
+    background-color: rgb(140, 54, 62, 0.4);
     color: white;
     border: none;
     border-radius: 20px;
@@ -704,7 +703,8 @@ figure.snip1321.hover:after {
     color: #fff !important;
     cursor: pointer;
   }
-  
+
+ 
   .web-btn {
     background-color: #007bff;
 
