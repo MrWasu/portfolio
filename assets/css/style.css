@@ -14,7 +14,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/20230612_134657xxxxxxx.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,7 +61,6 @@ img {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 ul li {
@@ -293,7 +292,7 @@ html {
     /*  */
     min-height: 20vh;
     padding-bottom: 0px;
-    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25) !important;
 }
 
 .section-heading {
@@ -304,6 +303,13 @@ html {
 .section-heading h2 {
     font-size: 32px;
     font-weight: 700;
+    color: #fff;
+}
+
+.section-heading h4 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -323,6 +329,63 @@ html {
     height: 2px;
     background-color: rgb(102, 102, 102);
     margin: 10px auto;
+}
+
+.section-heading .line-dec-3 {
+    margin-top: 5px !important;
+    margin-bottom: 25px !important;
+    width: 10%;
+    height: 2px;
+    background-color: rgb(102, 102, 102);
+}
+
+.svg-note {
+    position: relative;
+    bottom: 7px;
+}
+
+.notes {
+    text-align: center !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style-type: none;
+  }
+
+
+.notes li a {
+    font-size: 20px;
+    color: rgba(221, 221, 221, 0.973);
+    font-weight: 700;
+    text-decoration: none;
+    transition: 300ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+.notes li a:hover{
+    color:#c44350;
+}
+
+.minus {
+    font-size: 16px !important;
+}
+
+.sources a {
+    color: rgba(214, 213, 213, 0.884);
+    text-decoration: none;
+    font-style: italic;
+    transition: 300ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+.sources a:hover{
+    color:#8c363e;
 }
 
 .section-heading span {
@@ -530,7 +593,6 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar span {
-
     display: inline-block;
     margin-right: 15px;
     padding-bottom: 3px;
@@ -539,6 +601,15 @@ section.my-work .section-heading {
     border-bottom: 2px solid transparent;
     transform: ease-in-out 0.5s;
     cursor: pointer;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.isotope-toolbar span:hover {
+    color: #8c363e;
 }
 
 .isotope-toolbar input[type="radio"]:checked+span {
@@ -749,10 +820,10 @@ section.contact-me {
 
 :root {
     --color-calendar-graph-day-bg: rgb(221, 219, 219, 0.5);
-    --color-calendar-graph-day-L1-bg: #dd4a4a;
-    --color-calendar-graph-day-L2-bg: #b63d3d;
-    --color-calendar-graph-day-L3-bg: #943131;
-    --color-calendar-graph-day-L4-bg: #6b2323;
+    --color-calendar-graph-day-L4-bg: #ee4747;
+    --color-calendar-graph-day-L3-bg: #c24040;
+    --color-calendar-graph-day-L2-bg: #943131;
+    --color-calendar-graph-day-L1-bg: #6b2323;
 }
 
 rect.ContributionCalendar-day[data-level='0'] {
