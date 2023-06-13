@@ -8,7 +8,7 @@
   <meta name="author" content="" />
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
 
-  <title>Juan Jesús César - Portfolio</title>
+  <title id="title">Juan Jesús César - Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/owl.css" />
   <link rel="stylesheet" href="assets/css/lightbox.css" />
+  
 </head>
 
 <body>
@@ -87,8 +88,11 @@
     <section class="section about-me" data-section="section1">
       <div class="container">
         <div class="section-heading">
-          <h2>About Me</h2>
-          <div class="line-dec"></div>
+          <div class="image-2">
+            <a href="#"><img src="assets/images/20200228_111756.jpg" alt="" /></a>
+          </div>
+          <h2 class="about">About Me</h2>
+          <div class="line-dec about"></div>
           <span>
             Hello, my name is Juan Jesus. I am a trainee frontend web developer.
             I am looking forward to jumping into the industry, I am a fast learner and thrive in collaborative
@@ -107,9 +111,9 @@
           <h2>Skills</h2>
           <div class="line-dec"></div>
 
-          <div class="skills-container container d-flex row justify-content-center">
+          <div class="skills-container container d-flex row justify-content-center ">
 
-            <ul class="skills-li d-flex">
+            <ul class="skills-li d-flex ">
               <li>
                 <img class="svg-skill" src="./assets/svg/icons8-js.svg" alt="">
                 <p class="p-skill">Javascript</p>
@@ -175,19 +179,19 @@
           <div class="service-item col">
             <h4>Javascript - Typescript</h4>
             <p>
-              <span class="font-italic">Técnicas:</span>
+              <span class="f-kind">Técnicas:</span>
               <span class="bold">POO</span>,
               Manejo del DOM - AJAX, API Request
             </p>
             <p>
-              <span class="font-italic">Librerias:</span>
+              <span class="f-kind">Librerias:</span>
               SweeetAlerts2,
               <span class="bold">Bcryptjs</span>,
               <span class="bold">JWT</span>,
               querystring,
               <span class="bold">Axios</span>
             </p>
-            <p><span class="font-italic">Herramientas:</span>
+            <p><span class="f-kind">Herramientas:</span>
               Quicktype
             </p>
           </div>
@@ -195,21 +199,21 @@
           <div class="service-item col">
             <h4>React</h4>
             <p>
-              <span class="font-italic">Técnicas:</span>
+              <span class="f-kind">Técnicas:</span>
               Proteccion de rutas,
               customHooks,
               <span class="bold">Redux</span>,
               CRUD
             </p>
             <p>
-              <span class="font-italic">Librerias/Herramientas:</span>
+              <span class="f-kind">Librerias/Herramientas:</span>
               <span class="bold">Redux Tookit</span>,
               <span class="bold">RTK Query</span>,
               <span class="bold">Material UI</span>,
               React Big Calendar,
               React Datepicker,
             </p>
-            <p><span class="font-italic">Pruebas:</span>
+            <p><span class="f-kind">Pruebas:</span>
               <span class="bold">Jest</span>,
               React Testing Library
             </p>
@@ -218,7 +222,7 @@
           <div class="service-item col">
             <h4>Angular</h4>
             <p>
-              <span class="font-italic">Técnicas:</span> Proteccion de rutas,
+              <span class="f-kind">Técnicas:</span> Proteccion de rutas,
               Lazyloading,
               CRUD,
               formularios reactivos,
@@ -226,7 +230,7 @@
               <span class="bold">Signals</span>,
             </p>
             <p>
-              <span class="font-italic">Librerias/Herramientas:</span>
+              <span class="f-kind">Librerias/Herramientas:</span>
               <span class="bold">Rxjs</span>,
               <span class="bold">Angular Material</span>,
               <span class="bold">PrimeNG</span>
@@ -237,22 +241,22 @@
             <div class="service-item col-6">
               <h4>CSS:</h4>
               <p>
-                <span class="font-italic">Frameworks:</span>
+                <span class="f-kind">Frameworks:</span>
                 <span class="bold">Bootstrap</span>,
                 <span class="bold">Tailwind.css</span>,
               </p>
               <p>
-                <span class="font-italic">Preprocesadores:</span>
+                <span class="f-kind">Preprocesadores:</span>
                 <span class="bold">SASS</span>,
                 <span class="bold">LESS</span>,
                 PostCSS
               </p>
               <p>
-                <span class="font-italic">Librerías:</span>
+                <span class="f-kind">Librerías:</span>
                 Animate.css
               </p>
               <p>
-                <span class="font-italic">Técnicas:</span>
+                <span class="f-kind">Técnicas:</span>
                 Responsive Design
                 Flex,
                 Grid
@@ -269,21 +273,21 @@
             <div class="col-6 service-item ">
               <h4>Backend:</h4>
               <p>
-                <span class="font-italic">Desarrollo:</span>
+                <span class="f-kind">Desarrollo:</span>
                 <span class="bold">Nodejs</span> (Express),
                 <span class="bold">Nest.js</span>
               </p>
               <p>
-                <span class="font-italic">Preconfigurados:</span>
+                <span class="f-kind">Preconfigurados:</span>
                 <span class="bold">Firebase</span>,
                 <span class="bold">Firestore</span>
               </p>
               <p>
-                <span class="font-italic">Almacenamiento:</span>
+                <span class="f-kind">Almacenamiento:</span>
                 <span class="bold">Cloudinary</span>
               </p>
               <p>
-                <span class="font-italic">Database:</span>
+                <span class="f-kind">Database:</span>
                 <span class="bold">Mongo</span>
               </p>
               <p>
@@ -294,13 +298,13 @@
             <div class="service-item col-6">
               <h4>Hosting:</h4>
               <p>
-                <span class="font-italic">Servicios:</span>
+                <span class="f-kind">Servicios:</span>
                 <span>Vercel</span>,
                 <span>Netlify</span>,
                 <span>github.pages</span>
               </p>
               <p>
-                <span class="font-italic">Técnicas:</span>
+                <span class="f-kind">Técnicas:</span>
                 Dot Env
               </p>
             </div>
@@ -308,7 +312,7 @@
 
           <div class="col service-item mb-5">
             <h4>Software</h4>
-            <div class="d-flex mt-4 mx-2 justify-content-between">
+            <div class="software-div d-flex mt-4 mx-2 justify-content-around">
               <p class="bold">PostMan</p>
               <p class="bold">Docker</p>
               <p class="bold">Mongo Compass</p>
@@ -356,7 +360,7 @@
                         autentificación de usuarios,
                         protección de rutas, encriptación de contraseñas y validación de tokens.</p>
                       <div>
-                        <button class="tools-btn mb-2"> React</button>
+                        <button class="tools-btn"> React</button>
                         <button class="tools-btn"> Mongo</button>
                         <button class="tools-btn"> Express</button>
                         <button class="tools-btn"> Node</button>
@@ -393,7 +397,7 @@
                         el backend, <strong>Mongo</strong> para la base de datos y <strong>Angular</strong> para el
                         front.</p>
                       <div>
-                        <button class="tools-btn mb-2"> Nest</button>
+                        <button class="tools-btn"> Nest</button>
                         <button class="tools-btn"> Mongo</button>
                         <button class="tools-btn"> Angular</button>
                         <button class="tools-btn"> Signals</button>
@@ -537,7 +541,7 @@
                         sistema CRUD, alojamiento de imagenes, autentificación y registro de usuarios
                         mediante Firebase, protección de rutas y subida de archivos con cloudinary,</p>
                       <div>
-                        <button class="tools-btn mb-2"> React</button>
+                        <button class="tools-btn"> React</button>
                         <button class="tools-btn"> Redux</button>
                         <button class="tools-btn"> Redux Toolkit</button>
                         <button class="tools-btn"> RTK Query</button>
@@ -735,9 +739,12 @@
           <script src="./vendor/github/calendar.js"></script>
 
 
-          <div class="calendar pt-3 pb-4">
-            <!-- Loading stuff -->
-            Loading the data just for you.
+          <div class="calendar-container">
+
+            <div class="calendar pt-3 pb-4">
+              <!-- Loading stuff -->
+              Loading the data just for you.
+            </div>
           </div>
 
           <script>
@@ -745,8 +752,8 @@
           </script>
 
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-easing="ease-in-out"
-            className="col-11 col-lg-7 my-2 mx-auto text-center ">
-            <div className="card">
+            className="col-11 col-lg-7 my-2 mx-auto text-center" >
+            <div className="card" >
 
 
 
@@ -756,7 +763,7 @@
                 <desc id="descId"></desc>
 
 
-                <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="299"
+                <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="200"
                   fill="dfe2e5" stroke-opacity="0" />
 
 
@@ -767,16 +774,16 @@
                 </g>
 
 
-                <g data-testid="main-card-body" transform="translate(0, 55)">
+                <g data-testid="main-card-body"  transform="translate(-25, 55)">
 
-                  <svg data-testid="lang-items" x="25">
+                  <svg data-testid="lang-items" x="25" >
 
 
                     <mask id="rect-mask">
                       <rect x="0" y="0" width="250" height="8" fill="white" rx="5" />
                     </mask>
 
-                    <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="130.35" height="8"
+                    <rect  mask="url(#rect-mask)" data-testid="lang-progress" x="" y="0" width="130.35" height="8"
                       fill="#b63d3d" />
 
                     <rect mask="url(#rect-mask)" data-testid="lang-progress" x="130.35" y="0.5" width="56.44" height="8"
