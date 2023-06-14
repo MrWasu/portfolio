@@ -322,7 +322,7 @@ html {
 
 .section-heading .line-dec {
     margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 30px !important;
     width: 60px;
     height: 3px;
     background-color: #a43f49;
@@ -1335,6 +1335,11 @@ text.ContributionCalendar-label {
 
     .notes li a {
         font-size: 18px;
+    }
+
+    .binance-btn {
+        display: flex;
+        flex-direction: column !important;
     }
 }
 
