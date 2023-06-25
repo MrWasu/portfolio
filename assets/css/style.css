@@ -9,6 +9,11 @@ https://templatemo.com/tm-531-reflux
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
+:root {
+    --primary: #A3BD3F;
+    --secondary: #35342c;
+  }
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -126,7 +131,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #8c363e;
+    color: var(--primary);
 }
 
 /* Sidebar Menu */
@@ -185,7 +190,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #a43f49;
+    color: var(--primary);
 }
 
 .menu .copyright-text {
@@ -230,7 +235,7 @@ html {
     left: 10%;
     -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
     -webkit-overflow-scrolling: touch;
-    background-color: #a43f49;
+    background-color: var(--secondary);
     box-sizing: border-box;
     height: 100vh;
     max-height: 100vh !important;
@@ -262,7 +267,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #a43f49;
+    color: var(--primary);
     background-color: #fff;
     width: 60px;
     height: 60px;
@@ -278,7 +283,7 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #a43f49;
+    color: var(--primary);
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -325,7 +330,7 @@ html {
     margin-bottom: 30px !important;
     width: 60px;
     height: 3px;
-    background-color: #a43f49;
+    background-color: var(--primary);
     margin: 10px auto;
 }
 
@@ -373,7 +378,7 @@ html {
 }
 
 .notes li a:hover {
-    color: #c44350;
+    color: var(--primary);
 }
 
 .minus {
@@ -392,7 +397,7 @@ html {
 }
 
 .sources a:hover {
-    color: #8c363e;
+    color: var(--primary);
 }
 
 .section-heading span {
@@ -432,7 +437,7 @@ html {
     display: inline-block;
     padding: 12px 20px;
     background-color: #fff;
-    color: #a43f49;
+    color: var(--primary);
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -441,7 +446,7 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #a43f49;
+    background-color: var(--primary);
     color: #fff;
 }
 
@@ -449,7 +454,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #a43f49;
+    color: var(--primary);
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -462,7 +467,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
+    background-color: var(--primary);
     color: #fff;
 }
 
@@ -626,12 +631,12 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar span:hover {
-    color: #8c363e;
+    color: var(--primary);
 }
 
 .isotope-toolbar input[type="radio"]:checked+span {
-    color: #a43f49;
-    border-bottom: 2px solid #a43f49;
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
 }
 
 .tools-btn {
@@ -640,7 +645,7 @@ section.my-work .section-heading {
     font-size: 12px;
     display: inline-block;
     padding: 8px 16px;
-    background-color: rgb(140, 54, 62, 0.4);
+    background-color:#35342c;
     color: white;
     border: none;
     border-radius: 20px;
@@ -839,10 +844,10 @@ section.contact-me {
 
 :root {
     --color-calendar-graph-day-bg: rgb(221, 219, 219, 0.5);
-    --color-calendar-graph-day-L4-bg: #ee4747;
-    --color-calendar-graph-day-L3-bg: #c24040;
-    --color-calendar-graph-day-L2-bg: #943131;
-    --color-calendar-graph-day-L1-bg: #6b2323;
+    --color-calendar-graph-day-L4-bg: #A3BD3F;
+    --color-calendar-graph-day-L3-bg: #a6c03e;
+    --color-calendar-graph-day-L2-bg: #7a8d2f;
+    --color-calendar-graph-day-L1-bg: #515e1f;
 }
 
 rect.ContributionCalendar-day[data-level='0'] {
@@ -1346,7 +1351,7 @@ text.ContributionCalendar-label {
 @media screen and (max-width: 814px) {
 
     .card-2 {
-        background-color: red !important;
+        background-color: var(--primary) !important;
         text-align: center !important;
         margin-left: 0px !important;
     }
