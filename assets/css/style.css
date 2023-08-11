@@ -831,6 +831,10 @@ figure.snip1321.hover:after {
     background-color: #000;
 }
 
+.youtube-btn {
+    background-color: red;
+}
+
 .fa {
     padding: 0;
 }
